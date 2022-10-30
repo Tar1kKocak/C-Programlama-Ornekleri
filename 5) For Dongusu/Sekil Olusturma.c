@@ -4,11 +4,13 @@
 
 int main()
 {
+    //Yazilimin amaci : Girilen sayı adeti kadar satır inerek sekil olusturma.
+    
     setlocale (LC_ALL,"Turkish");
 
     int sayi,satir,sutun;
 
-    printf("L�tfen bir say� giriniz.\n");
+    printf("Lütfen bir sayý giriniz.\n");
     scanf("%d",&sayi);
 
 
