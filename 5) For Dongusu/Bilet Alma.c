@@ -3,6 +3,8 @@
 #include <locale.h>
 int main()
 {
+    // Yazilimin amaci :  100 bilet ile sinirli bir etkinlik bilet satma/tuketme yazilimi.
+    
     setlocale(LC_ALL,"Turkish");
 
     int biletsayisi=100;
@@ -10,14 +12,14 @@ int main()
 
     for(;biletsayisi>0;) {
 
-            printf("Bilet almak istiyorsanız belirtiniz.[E/e]\n");
+            printf("Bilet almak istiyorsanÄ±z belirtiniz.[E/e]\n");
             scanf(" %c",&secim);
 
         if (secim=='e' || secim =='E') {
 
             int alinanbilet;
 
-            printf("Kaç adet bilet almak istiyorsunuz?\n");
+            printf("KaÃ§ adet bilet almak istiyorsunuz?\n");
             scanf("%d",&alinanbilet);
 
             if (alinanbilet > biletsayisi) {
@@ -27,7 +29,7 @@ int main()
 
             biletsayisi -= alinanbilet;
 
-            printf("Alınabilecek toplam bilet sayısı :%d\n",biletsayisi);
+            printf("AlÄ±nabilecek toplam bilet sayÄ±sÄ± :%d\n",biletsayisi);
 
 
         }
@@ -37,11 +39,11 @@ int main()
     }
 
         if(biletsayisi==0) {
-            printf("Biletler tükendi.\n");
+            printf("Biletler tÃ¼kendi.\n");
 
         }
         else {
-                printf("Alınan bilet sayısı : %d\nKalan bilet sayısı : %d",100-biletsayisi,biletsayisi);
+                printf("AlÄ±nan bilet sayÄ±sÄ± : %d\nKalan bilet sayÄ±sÄ± : %d",100-biletsayisi,biletsayisi);
 
         }
 
