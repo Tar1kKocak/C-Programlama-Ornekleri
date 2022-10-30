@@ -4,6 +4,8 @@
 
 int main()
  {
+	// Yazilimin amaci : 1'den 10'a kadar olan carpim tablosu.
+	
 	setlocale(LC_ALL,"Turkish");
 	
 	int i=1;
