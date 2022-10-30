@@ -4,13 +4,15 @@
 
 int main()
  {
+	// Yazilimin amaci : 1'Den belirtilen sayiya kadar olan sayilarin toplamÄ±.
+	
 	setlocale(LC_ALL,"Turkish");
 	
 	int sayac;
 	int x=1;
 	int toplam=0;
 	
-	printf("Lütfen kaça kadar toplamak istediğinizi giriniz.\n");
+	printf("LÃ¼tfen kaÃ§a kadar toplamak istediÃ°inizi giriniz.\n");
 	scanf("%d",&sayac);
 	
 	
