@@ -4,11 +4,13 @@
 
 int main()
 {
+    // Yazilimin amaci : For degiskeninin mantigi.
+    
     setlocale(LC_ALL,"Turkish");
 
    int sayi;
 
-   printf("Girdiðiniz sayý ile 0 arasýnda kalan 5'e bölünebilen sayýlarý yazdýralým.\n");
+   printf("GirdiÃ°iniz sayÃ½ ile 0 arasÃ½nda kalan 5'e bÃ¶lÃ¼nebilen sayÃ½larÃ½ yazdÃ½ralÃ½m.\n");
    scanf("%d",&sayi);
 
    if (sayi>=0) {
