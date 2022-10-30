@@ -4,21 +4,23 @@
 
 int main()
  {
+	// Yazilimin amaci : Girilen sayinin tek mi cift mi oldugunu ogrenmek.
+	
 	setlocale(LC_ALL,"Turkish");
 	
 	int sayi;
 	
-	printf("Tek mi Çift mi olduğunu öğrenmek istediğiniz sayıyı giriniz.\n");
+	printf("Tek mi Ã‡ift mi olduÄŸunu Ã¶ÄŸrenmek istediÄŸiniz sayÄ±yÄ± giriniz.\n");
 	scanf("%d",&sayi);
 	
 	if (sayi % 2 == 0) {
-		printf("%d sayısı çift bir sayıdır.\n",sayi);
+		printf("%d sayÄ±sÄ± Ã§ift bir sayÄ±dÄ±r.\n",sayi);
 	}
 	else {
-		printf("%d sayısı tek bir sayıdır.\n",sayi);
+		printf("%d sayÄ±sÄ± tek bir sayÄ±dÄ±r.\n",sayi);
 		
 	}
-	/* yüksek basamak değerlilerin sonuç kısmında sorun çıkıyor hocaya sor */
+	/* yÃ¼ksek basamak deÄŸerlilerin sonuÃ§ kÄ±smÄ±nda sorun Ã§Ä±kÄ±yor hocaya sor */
 
 
 
