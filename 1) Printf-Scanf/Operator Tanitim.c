@@ -4,6 +4,9 @@
 
 int main()
 {
+        // BU BIR NOT DEFTERIDIR, YAZILIM ICERMEZ. 
+        
+        
         //Not Defteri : Operatorlerin tanimi,mantigi
 
         setlocale(LC_ALL,"Turkish");
@@ -19,14 +22,14 @@ int main()
         ------------------------
         Mod     : a % b == sonuc
 
-        Modun anlami => a sayisinin b sayisina bolumunden kalanı vermek.
+        Modun anlami => a sayisinin b sayisina bolumunden kalanÄ± vermek.
         Ornek => 18 % 5 == 3
         ------------------------
         a-- ifadesinin anlami => a sayisini bir azalt yani (a-1) ifadesine es degerdir.
         a++ ifadesinin anlami => a sayisini bir arttir yani (a+1) ifadesine es degerdir.
         ------------------------
-        Tek basina (=) ifadesi atama anlamına gelir.Yani, a=2 ifadesi a artik ikidir anlamına gelir.
-        İki adet esittir (==) seklinde olursa normal bilinen esittir anlamina gelmektir, Yani, 3+2==5
+        Tek basina (=) ifadesi atama anlamÄ±na gelir.Yani, a=2 ifadesi a artik ikidir anlamÄ±na gelir.
+        Ä°ki adet esittir (==) seklinde olursa normal bilinen esittir anlamina gelmektir, Yani, 3+2==5
         Esit degil ifadesi (!=) seklinde ifade edilir. Yani, 5!=6
         ------------------------
         Buyuktur : a > b : a, b den buyuktur.
