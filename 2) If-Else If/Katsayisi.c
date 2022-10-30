@@ -4,18 +4,20 @@
 
 int main()
  {
+	// Yazilimin amaci : Girilen iki sayinin birbirinin kati olup olmadigini bulmak.
+	
 	setlocale(LC_ALL,"Turkish");
 	
 	int buyuksayi,kucuksayi;
 	
-	printf("Birbirinin katı olduğunu öğrenmek istediğiniz sayıyı önce büyük sayı olmak üzere giriniz.\n");
+	printf("Birbirinin katÄ± olduÄŸunu Ã¶ÄŸrenmek istediÄŸiniz sayÄ±yÄ± Ã¶nce bÃ¼yÃ¼k sayÄ± olmak Ã¼zere giriniz.\n");
 	scanf("%d%d",&buyuksayi,&kucuksayi);
 	
 	if (buyuksayi % kucuksayi == 0) {
-		printf("%d sayısı %d sayısının bir katıdır,çarpanıdır.",buyuksayi,kucuksayi);
+		printf("%d sayÄ±sÄ± %d sayÄ±sÄ±nÄ±n bir katÄ±dÄ±r,Ã§arpanÄ±dÄ±r.",buyuksayi,kucuksayi);
 	}
 	else {
-		printf("%d sayısı %d sayısının bir katı veya çarpanı değildir.",buyuksayi,kucuksayi);
+		printf("%d sayÄ±sÄ± %d sayÄ±sÄ±nÄ±n bir katÄ± veya Ã§arpanÄ± deÄŸildir.",buyuksayi,kucuksayi);
 	}
 	
 	
