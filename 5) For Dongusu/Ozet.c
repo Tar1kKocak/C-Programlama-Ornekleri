@@ -4,7 +4,11 @@
 
 int main()
 {
-
+    // BU BIR NOT DEFTERIDIR, YAZILIM ICERMEZ. 
+    
+    //Not Defteri : For-While-Do While karsilastirmasi.
+    
+    
     int for1,while1,doWhile1;
 
 
