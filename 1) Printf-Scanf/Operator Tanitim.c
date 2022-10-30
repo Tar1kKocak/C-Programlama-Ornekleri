@@ -9,7 +9,6 @@ int main()
         
         //Not Defteri : Operatorlerin tanimi,mantigi
 
-        setlocale(LC_ALL,"Turkish");
 
 
         Toplama : a + b == sonuc
