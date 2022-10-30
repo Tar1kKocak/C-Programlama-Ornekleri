@@ -4,6 +4,8 @@
 
 int main()
 {
+        // Yazilimin amaci : İc ice for dongusu ile carpim tablosu
+        
         setlocale(LC_ALL,"Turkish");
 
     int i,j;
