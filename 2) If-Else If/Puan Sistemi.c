@@ -7,40 +7,42 @@ int main()
 
 
  {
+	//Yazilimin Amaci: Sinavdan alinan puanin derecesini ogrenmek.
+	
  	setlocale(LC_ALL,"Turkish");
  	
  	int puan;
  	
- 	printf("Lütfen puanınızı giriniz.\n");
+ 	printf("LÃ¼tfen puanÄ±nÄ±zÄ± giriniz.\n");
  	scanf("%d",&puan);
  	
  	/*
- 	   80-100 = çok iyi
+ 	   80-100 = Ã§ok iyi
  	   60-80 = iyi
  	   40-60 = orta
- 	   20-40 = kötü
- 	   0-20 = çok kötü */
+ 	   20-40 = kÃ¶tÃ¼
+ 	   0-20 = Ã§ok kÃ¶tÃ¼ */
  	   
  	   
  	if (puan >= 80 && puan <= 100) {
  		
- 		printf("Puanınız çok iyi.");
+ 		printf("PuanÄ±nÄ±z Ã§ok iyi.");
 	 }  
  	   
  	else if (puan >=60 && puan < 80) {
- 		printf("Puanınız iyi.");
+ 		printf("PuanÄ±nÄ±z iyi.");
 	 }
  	else if (puan >=40 && puan < 60) {
- 		printf("Puanınız orta.");
+ 		printf("PuanÄ±nÄ±z orta.");
 	 }
  	else if (puan >=20 && puan < 40) {
- 		printf("Puanınız kötü.");	
+ 		printf("PuanÄ±nÄ±z kÃ¶tÃ¼.");	
 	 }
  	else if (puan >=0 && puan < 20) {
- 		printf("Puanınız çok kötü.");
+ 		printf("PuanÄ±nÄ±z Ã§ok kÃ¶tÃ¼.");
 	 }
 	 else {
-	 	printf("Lütfen 0-100 arasında bir değer giriniz.");
+	 	printf("LÃ¼tfen 0-100 arasÄ±nda bir deÄŸer giriniz.");
 	 }
  	
 	return 0;
