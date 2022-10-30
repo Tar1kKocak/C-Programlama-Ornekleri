@@ -5,18 +5,20 @@
 
 int main() 
 {
+	// Yazilimin amaci :  Adet sayisina gore fiyat degisikligi gosteren toptan satis uygulamasi.
+	
 	setlocale(LC_ALL,"Turkish");
 	int adet;
 	float adetucreti; 
 	
-	/* 0-100 adet = a.fiyatı = 3 tl
-		100-200 adet = a.fiyatı = 2.5 tl
-		200-300 adet = a.fiyatı = 2 tl
-		300-400 adet = a.fiyatı = 1.5 tl
-		400+ adet = a.fiyatı = 0.75 tl  */
+	/* 0-100 adet = a.fiyatÃ½ = 3 tl
+		100-200 adet = a.fiyatÃ½ = 2.5 tl
+		200-300 adet = a.fiyatÃ½ = 2 tl
+		300-400 adet = a.fiyatÃ½ = 1.5 tl
+		400+ adet = a.fiyatÃ½ = 0.75 tl  */
 		
 		
-	printf ("Kaç adet ürün alacaksınız?\n");
+	printf ("KaÃ§ adet Ã¼rÃ¼n alacaksÃ½nÃ½z?\n");
 	scanf ("%d",&adet);
 	
 	if (adet >=400 ) {
@@ -35,10 +37,10 @@ int main()
 		adetucreti = 3;
 	}
 	else {
-		printf("Lütfen 1 veya 1 den büyük bir değer giriniz..\n");
+		printf("LÃ¼tfen 1 veya 1 den bÃ¼yÃ¼k bir deÃ°er giriniz..\n");
 	}
 	
-	printf ("Toplam ödenecek tutar = %.3f", adet*adetucreti);
+	printf ("Toplam Ã¶denecek tutar = %.3f", adet*adetucreti);
 	
 	
 	
