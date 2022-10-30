@@ -6,24 +6,26 @@
 
 int main() 
 {
+	// Yazilimin amaci : Mevsime gore hava sartlarini ogrenmek.
+	
 	setlocale(LC_ALL,"Turkish");
 	
 	
 	int secim;
 	
-	printf("Lütfen seçiminizi yapınız...\n");
+	printf("LÃ¼tfen seÃ§iminizi yapÄ±nÄ±z...\n");
 	
-	printf("1.İlkbahar\n2.Yaz\n3.Sonbahar\n4.Kış\n");
+	printf("1.Ä°lkbahar\n2.Yaz\n3.Sonbahar\n4.KÄ±ÅŸ\n");
 	scanf("%d",&secim);
 	
 	
 	switch (secim) {
 		
-		case 1 :printf("Hava çok güzel..."); break;
-		case 2 : printf("Hava çok sıcak..."); break;
-		case 3 :printf("Hava yağmurlu..."); break;
-		case 4 : printf("Hava karlı..."); break;
-		default : printf("Lütfen 1-4 arasında bir sayı giriniz...");
+		case 1 :printf("Hava Ã§ok gÃ¼zel..."); break;
+		case 2 : printf("Hava Ã§ok sÄ±cak..."); break;
+		case 3 :printf("Hava yaÄŸmurlu..."); break;
+		case 4 : printf("Hava karlÄ±..."); break;
+		default : printf("LÃ¼tfen 1-4 arasÄ±nda bir sayÄ± giriniz...");
 		
 	}
 	
