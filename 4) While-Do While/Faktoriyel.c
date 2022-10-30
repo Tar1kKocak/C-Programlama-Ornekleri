@@ -5,12 +5,14 @@
 
 int main()
 {	
+	// Yazilimin amaci : Girilen sayinin faktoriyel degerini bulmamizi saglar.
+	
 	setlocale(LC_ALL,"Turkish");
 	
 	int sayi;
 	int faktoriyel=1;
 	
-	printf("Faktöriyelini almak istediðiniz sayýyý giriniz.\n");
+	printf("FaktÃ¶riyelini almak istediÃ°iniz sayÃ½yÃ½ giriniz.\n");
 	scanf("%d",&sayi);
 	
 	while (sayi>=0) {
