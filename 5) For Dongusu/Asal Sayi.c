@@ -5,6 +5,7 @@
 int main()
 {
     //Yazilimin Amaci : Kullanicidan alinan  pozitif bir tam sayinin asal olup olmadigini bulmak.
+    
     setlocale (LC_ALL,"Turkish");
 
     int sayi,asal,kontrol=0;
