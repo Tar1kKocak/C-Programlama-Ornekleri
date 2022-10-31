@@ -7,7 +7,6 @@
     int main()
  {
      //Yazilimin Amaci : Kare ve dikdortgenin çevre,alan hesabını yapabilmek.
-     //Software Goal   : Calculating perimeter and area of square and rectangle.
 
  	setlocale(LC_ALL,"Turkish");
  	int kareninbiruzunluk;
