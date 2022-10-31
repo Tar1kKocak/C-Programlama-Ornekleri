@@ -5,7 +5,7 @@
 int main()
 {
     /* Kullanicidan alinan +,-,*,/ karakter islem parametresine gore iki sayi arasinda dort islemden secileni yapan ve islemin yapisi ile sonucunu
-    ekrana gösteren eger dort islemden farkli bir karakter girilirse hata veren C programini yazini*/
+    ekrana gÃ¶steren eger dort islemden farkli bir karakter girilirse hata veren C programini yaziniz*/
 
 
 
@@ -15,10 +15,10 @@ int main()
     float sayi1,sayi2;
 
 
-    printf("Lütfen yapmak istediginiz islemin sembolunu seciniz.\n");
-    printf("1-Toplama (+)\n2-Çikarma(-)\n3-Carpma(*)\n4-Bolme(/)\n");
+    printf("LÃ¼tfen yapmak istediginiz islemin sembolunu seciniz.\n");
+    printf("1-Toplama (+)\n2-Ã‡ikarma(-)\n3-Carpma(*)\n4-Bolme(/)\n");
     scanf("%c",&formul);
-    printf("Lütfen iki adet sayý giriniz.(Birincisi büyük olmak þartýyla)\n");
+    printf("LÃ¼tfen iki adet sayÄ± giriniz.(Birincisi bÃ¼yÃ¼k olmak ÅŸartÄ±yla)\n");
     scanf("%f%f",&sayi1,&sayi2);
 
 
@@ -26,12 +26,12 @@ int main()
    switch(formul) {
 
        case '+' : printf("Toplama isleminizin sonucu = %.0f",sayi1+sayi2); break;
-       case '-' :  printf("Çikarma isleminizin sonucu = %.0f",sayi1-sayi2); break;
-       case '*' : printf("Çarpma islemimizin sonucu : %.0f",sayi1*sayi2); break;
-       case '/' : printf("Bölme isleminizin sonucu : %.2f\n",sayi1/sayi2); break;
+       case '-' :  printf("Ã‡ikarma isleminizin sonucu = %.0f",sayi1-sayi2); break;
+       case '*' : printf("Ã‡arpma islemimizin sonucu : %.0f",sayi1*sayi2); break;
+       case '/' : printf("BÃ¶lme isleminizin sonucu : %.2f\n",sayi1/sayi2); break;
 
 
-       default : printf("Lütfen geçerli bir sayi giriniz.\n");
+       default : printf("LÃ¼tfen geÃ§erli bir sayi giriniz.\n");
 
 
    }
