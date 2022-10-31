@@ -7,6 +7,7 @@
     int main()
  {
      //Yazilimin Amaci : Kare ve dikdortgenin çevre,alan hesabını yapabilmek.
+     //Software Goal   : Calculating perimeter and area of square and rectangle.
 
  	setlocale(LC_ALL,"Turkish");
  	int kareninbiruzunluk;
@@ -16,17 +17,17 @@
 
  	int dikdortgenkisakenar,dikdortgenuzunkenar;
 
- 	printf("Alanini ve cevresini bulmak istediginiz dikdörtgenin uzun kenarini giriniz.\n");
+ 	printf("Alanini ve cevresini bulmak istediginiz dikdortgenin uzun kenarini giriniz.\n");
  	scanf("%d",&dikdortgenuzunkenar);
 
- 	printf("Alanini ve cevresini bulmak istediginiz dikdörtgenin kisa  kenarini giriniz.\n");
+ 	printf("Alanini ve cevresini bulmak istediginiz dikdortgenin kisa  kenarini giriniz.\n");
  	scanf("%d",&dikdortgenkisakenar);
 
 
  	printf("Karenin cevresi : %d\n",kareninbiruzunluk * 4);
  	printf("Karenin alani : %d\n",kareninbiruzunluk * kareninbiruzunluk);
- 	printf("Dikdörtgenin cevresi : %d\n",dikdortgenkisakenar * 2 + dikdortgenuzunkenar * 2);
- 	printf("Dikdörtgenin alani : %d\n",dikdortgenkisakenar*dikdortgenuzunkenar);
+ 	printf("Dikdortgenin cevresi : %d\n",dikdortgenkisakenar * 2 + dikdortgenuzunkenar * 2);
+ 	printf("Dikdortgenin alani : %d\n",dikdortgenkisakenar*dikdortgenuzunkenar);
 
 
 
