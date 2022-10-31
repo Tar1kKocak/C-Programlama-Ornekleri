@@ -5,7 +5,7 @@
 int main()
 {
     //Yazilimin Amaci : Kullanicidan alinan  pozitif bir tam sayinin asal olup olmadigini bulmak.
-    //Software Goal : To find whether a positive integer received from the user is a prime number or not.
+    //Software Goal :   To find whether a positive integer received from the user is a prime number or not.
 
     setlocale (LC_ALL,"Turkish");
 
