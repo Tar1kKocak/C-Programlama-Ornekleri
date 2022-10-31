@@ -3,6 +3,8 @@
 
 int main()
 {
+    //Yazilimin amaci : Carpma islemini toplama yoluyla yapmak.
+    
     int sayi1,sayi2,i,sonuc=0;
 
     printf("Carpilmasini istediginiz iki adet pozitif tam sayi giriniz.\n");
