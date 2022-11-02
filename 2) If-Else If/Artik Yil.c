@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int main() {
-        //Yazilimin Amaci : Kullanicidan bir yil degeri girmesini isteyen ve girilen yilin artik yil olup olmadigini
-    //kontrol eden bir program yaziniz.Artik Yil : 4 ile kalansız bölünebilen yil.
+        //Yazilimin Amaci : Kullanicidan bir yil degeri girmesini isteyen ve girilen yilin artik yil olup olmadigini kontrol eden bir program yaziniz.
+        //Artik Yil : 4 ile kalansÄ±z bÃ¶lÃ¼nebilen yil.
 
 
     int sayi;
