@@ -22,7 +22,6 @@ int main()
 
     }
     i=sayi;
-   // printf("%d",kontrol);
 
     a=kontrol;
 
@@ -37,7 +36,6 @@ int main()
 
     }
     printf("%d",arms);
-
 
 
     return 0;
