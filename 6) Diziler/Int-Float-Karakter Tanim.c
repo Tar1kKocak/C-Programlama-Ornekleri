@@ -3,7 +3,7 @@
 
 int main()
 {
-        //Ýnt Dizileri :
+        //Ä°nt Dizileri :
 
     int b[6]={},k;
 
