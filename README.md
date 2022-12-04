@@ -3,7 +3,6 @@
     C diliyle ilgili yaptigim temel-orta duzeyde olan yazilimlari burada paylasiyorum. 
     Degiskenler ile ilgili konuyu daha iyi ogrenebilmemizi, kavramamizi saglayan pratik yazilimlar icermektedir.
     
-    Oneri icin : tarikkocak@stu.topkapi.edu.tr
     
   
 
